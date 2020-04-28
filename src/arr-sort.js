@@ -3,8 +3,6 @@ import assertArgs from '@bemoje/assert-args'
 import assertType from '@bemoje/assert-type'
 import isFunction from '@bemoje/is-function'
 
-const nativeSort = Array.prototype.sort
-
 /**
  * Sort an array considerably faster than the native Array.prototype.sort as a drop-in replacement. Fork of of the famous timsort module, but this module allows for passing comparator-builder options instead of a comparator function. In short, advanced comparators made easy. Timsort: https://www.npmjs.com/package/timsort
  * @param {Array} arr - The array to sort.
