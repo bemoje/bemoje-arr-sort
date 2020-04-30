@@ -1,6 +1,6 @@
 {
    "name": "@bemoje/arr-sort",
-   "version": "1.0.1",
+   "version": "1.0.2",
    "description": "Sort an array considerably faster than the native Array.prototype.sort as a drop-in replacement. Fork of of the famous timsort module, but this module allows for passing comparator-builder options instead of a comparator function. In short, advanced comparators made easy. Timsort: https://www.npmjs.com/package/timsort",
    "main": "dist/arr-sort.umd.js",
    "module": "dist/arr-sort.esm.js",
@@ -53,7 +53,7 @@
    },
    "devDependencies": {
       "babel-core": "^6.26.3",
-      "babel-jest": "^25.4.0",
+      "babel-jest": "^25.5.1",
       "babel-preset-env": "^1.7.0",
       "documentation": "^12.3.0",
       "esm": "^3.2.25",
